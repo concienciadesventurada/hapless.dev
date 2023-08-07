@@ -1,5 +1,5 @@
 <script lang="ts">
-	import * as config from '$lib/config';
+	import * as config from "$lib/config";
 </script>
 
 <nav class="flex justify-between gap-8 p-10">
@@ -21,8 +21,8 @@
 </nav>
 
 <style>
-  a {
-    color: inherit;
-    text-decoration: none;
-  }
+	a {
+		color: inherit;
+		text-decoration: none;
+	}
 </style>
