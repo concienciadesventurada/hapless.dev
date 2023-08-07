@@ -13,7 +13,7 @@
 	<ul class="posts">
 		{#each data.posts as post}
 			<li class="post">
-				<a href={`/${post.slug}`}>
+				<a href={`/blog/${post.slug}`}>
 					<article class="pb-10">
 						<div class="flex justify-between pb-4">
 							<h1 class="text-3xl text-dorado"><b>{post.title}</b></h1>
