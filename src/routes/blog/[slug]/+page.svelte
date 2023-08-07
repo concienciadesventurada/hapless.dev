@@ -20,7 +20,7 @@
 		<svelte:component this={data.content} />
 	</div>
 
-	<div class="flex">
+	<div class="flex mt-10">
 		{#each data.meta.categories as category}
 			<span class="bg-gris rounded-2xl mx-2 py-2 px-6">&num;{category}</span>
 		{/each}
