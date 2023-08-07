@@ -9,6 +9,12 @@ categories:
 published: true
 ---
 
-# FIRST POST SIONO
+## FIRST POST SIONO
 
 ola mi gente fuck u pelao foucault
+
+```ts
+function greet(name: string) {
+	console.log(`Hey ${name}! 👋`);
+}
+```

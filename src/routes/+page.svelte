@@ -1,40 +1,29 @@
 <script lang="ts">
 	import * as config from '$lib/config';
-  import { formatDate } from '$lib/utils';
+	import { formatDate } from '$lib/utils';
 
 	export let data;
 </script>
 
 <svelte:head>
-  <title>{config.title}</title>
+	<title>{config.title}</title>
 </svelte:head>
 
-<section>
+<section class="m-10">
 	<ul class="posts">
 		{#each data.posts as post}
 			<li class="post">
-				<a href=""
-					>{post.title}
-					<p>{formatDate(post.date)}</p>
-					<p>{post.description}</p>
+				<a href={`/${post.slug}`}>
+					<article class="pb-10">
+						<div class="flex justify-between pb-4">
+							<h1 class="text-3xl text-dorado"><b>{post.title}</b></h1>
+							<p class="italic">{formatDate(post.date)}</p>
+						</div>
+						<hr class="border-b-cv p-2" />
+						<p>{post.description}</p>
+					</article>
 				</a>
 			</li>
 		{/each}
 	</ul>
 </section>
-
-<style>
-	.posts {
-		display: grid;
-		gap: var(--size-7);
-	}
-
-	.post {
-		max-inline-size: var(--size-content-3);
-	}
-
-	.post:not(:last-child) {
-		border-bottom: 1px solid var(--border);
-		padding-bottom: var(--size-6);
-	}
-</style>
