@@ -20,7 +20,7 @@
 							<p class="italic">{formatDate(post.date)}</p>
 						</div>
 						<hr class="border-b-cv p-2" />
-						<p>{post.description}</p>
+						<p>{post.description === null ? "" : post.description}</p>
 					</article>
 				</a>
 			</li>
