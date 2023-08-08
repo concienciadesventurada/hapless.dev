@@ -13,8 +13,8 @@
 <article class="m-24">
 	<hgroup class="flex justify-between">
 		<h1 class="text-5xl text-dorado"><b>{data.meta.title}</b></h1>
-		<p class="text-right"><b>{formatDate(data.meta.date)}</b></p>
 	</hgroup>
+  <p><b>{formatDate(data.meta.date)}</b></p>
 
 	<div class="mt-10 prose dark:prose-invert">
 		<svelte:component this={data.content} />

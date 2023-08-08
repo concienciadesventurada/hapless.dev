@@ -1,7 +1,7 @@
 ---
 title: Totalidad
 description: Una mirada al progresismo posmoderno
-date: 03-05-2023
+date: 08-11-2022
 categories:
   - poesia
 published: true
