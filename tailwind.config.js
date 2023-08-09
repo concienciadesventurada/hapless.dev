@@ -4,10 +4,12 @@ export default {
 	theme: {
 		extend: {
 			screens: {
+				xs: { min: "300px", max: "639px" },
 				sm: { min: "640px", max: "767px" },
 				md: { min: "768px", max: "1023px" },
 				lg: { min: "1024px", max: "1279px" },
-				xl: { min: "1280px", max: "1535px" }
+				xl: { min: "1280px", max: "1535px" },
+				xl2: { min: "1536px", max: "2140px" }
 			},
 			colors: {
 				gris: "#1E2022",

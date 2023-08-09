@@ -1,7 +1,7 @@
 <script lang="ts" context="module">
-	import { img } from "$lib/components/custom";
+  import Img from "$lib/components/custom/img.svelte";
 
-	export { img };
+	export { Img };
 </script>
 
 <slot />

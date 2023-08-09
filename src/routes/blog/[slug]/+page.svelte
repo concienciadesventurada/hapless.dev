@@ -10,9 +10,9 @@
 	<meta property="og:title" content={data.meta.title} />
 </svelte:head>
 
-<article class="my-10 mx-auto">
+<article class="w-5/6 mx-auto my-12 sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-7/12 xl2:w-1/3">
 	<hgroup
-		class="flex flex-col justify-center items-baseline max-w-screen-md
+		class="flex flex-col justify-center items-baseline
   md:flex md:justify-between"
 	>
 		<h1 class="text-5xl text-dorado">

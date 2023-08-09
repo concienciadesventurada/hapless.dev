@@ -36,6 +36,7 @@
     "@fontsource/fira-code": "^5.0.8",
     "@icons-pack/svelte-simple-icons": "^3.0.0",
     "autoprefixer": "^10.4.14",
+    "lucide-svelte": "^0.265.0",
     "postcss": "^8.4.27",
     "rehype-slug": "^5.1.0",
     "remark-toc": "^8.0.1",
