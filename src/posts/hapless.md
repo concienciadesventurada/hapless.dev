@@ -1,6 +1,6 @@
 ---
 title: "Sobre la conciencia desventurada y el proposito del blog"
-description: Una mirada al liberalismo contemporaneo
+description: Una corta e insipida introduccion
 date: 08-08-2023
 categories:
   - filosofia
