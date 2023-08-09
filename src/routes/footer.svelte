@@ -1,15 +1,14 @@
 <script lang="ts">
 	import * as config from "$lib/config";
-  import { Icon } from "svelte-simples";
+	import AIcon from "$lib/components/custom/a-icon.svelte";
 </script>
 
 <footer class="flex flex-col items-center p-24 border-t-white">
-  <div class="flex gap-8">
-    <Icon name="github" />
-    <Icon name="linkedin" />
-    <Icon name="medium" />
-    <Icon name="buymeacoffee" />
-    <Icon name="proton" />
-  </div>
-	<p class="py-12 text-sm">{config.title} &copy {new Date().getFullYear()}</p>
+	<div class="flex gap-8 py-24">
+		<AIcon href="https://github.com/concienciadesventurada/" name="github" />
+		<AIcon href="https://medium.com/@hapless.dev" name="medium" />
+		<AIcon href="https://buymeacoffee.com/hapless.dev" name="buymeacoffee" />
+		<AIcon href="mailto:hapless.dev@proton.me" name="proton" />
+	</div>
+	<p class="text-sm">{config.title} &copy {new Date().getFullYear()}</p>
 </footer>

@@ -6,7 +6,7 @@
 
 <div>
 	<Header />
-	<main class="w-3/4 mx-auto md:w-1/2 lg:w-4/6 xl:w-2/5">
+	<main class="w-3/4 h-full mx-auto md:w-1/2 lg:w-4/6 xl:w-2/5">
 		<slot />
 	</main>
 	<Footer />
