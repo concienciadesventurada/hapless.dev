@@ -6,7 +6,7 @@
 
 <div>
 	<Header />
-	<main>
+  <main class="sm:w-3/4 md:w-5/6 lg:w-1/2 w-1/3 mx-auto my-24">
 		<slot />
 	</main>
 	<Footer />
