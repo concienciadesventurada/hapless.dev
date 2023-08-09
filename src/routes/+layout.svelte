@@ -4,7 +4,7 @@
 	import Footer from "./footer.svelte";
 </script>
 
-<div class="layout">
+<div>
 	<Header />
 	<main>
 		<slot />
