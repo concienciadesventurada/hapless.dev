@@ -1,5 +1,6 @@
 import img from "./img.svelte";
 import Counter from "./counter.svelte";
 import AnchorIcon from "./a-icon.svelte";
+import Zsh from "./zsh.svelte";
 
-export { img, Counter, AnchorIcon };
+export { img, Counter, AnchorIcon, Zsh };

@@ -15,6 +15,7 @@ export default {
 				gris: "#1E2022",
 				negrito: "#1A1A1B",
 				negrito2: "#151515",
+				"bg-primary": "#0f0e0e",
 				celestucho: "#d6e0f0",
 				celestucho2: "#c9d6df",
 				grisstacy: "#8d93ab",
@@ -24,6 +25,29 @@ export default {
 				verde: "#C9F4AA",
 				rojo: "#F48484",
 				azulito: "#AEE2FF"
+			},
+			animation: {
+				typing: "typing 0.8s steps(10), blink 0.8s infinite"
+			},
+			keyframes: {
+				typing: {
+					from: {
+						width: "0"
+					},
+					to: {
+						width: "10ch"
+					}
+				},
+				blink: {
+					from: {
+						"border-right-width": "20px",
+						"border-right-color": "transparent"
+					},
+					to: {
+						"border-right-width": "20px",
+						"border-right-color": "white"
+					}
+				}
 			}
 		}
 	},

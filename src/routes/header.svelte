@@ -9,8 +9,8 @@
 	}
 </script>
 
-<nav class="flex justify-between gap-8 p-10">
-	<a href="/" class="border-b border-dorado"><b>{config.title}</b></a>
+<nav class="flex justify-between gap-8 p-12">
+	<a href="/" class="border-b-4 border-dorado"><b>{config.title}</b></a>
 
 	<ul class="flex justify-items-end gap-12">
 		<li>
