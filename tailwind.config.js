@@ -27,7 +27,7 @@ export default {
 				azulito: "#AEE2FF"
 			},
 			animation: {
-				typing: "typing 0.8s steps(10), blink 0.8s infinite"
+				typing: "typing 0.8s steps(10), blink 0.74s infinite"
 			},
 			keyframes: {
 				typing: {
@@ -40,11 +40,11 @@ export default {
 				},
 				blink: {
 					from: {
-						"border-right-width": "20px",
+						"border-right-width": "16px",
 						"border-right-color": "transparent"
 					},
 					to: {
-						"border-right-width": "20px",
+						"border-right-width": "16px",
 						"border-right-color": "white"
 					}
 				}
