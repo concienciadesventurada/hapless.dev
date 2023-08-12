@@ -29,7 +29,7 @@
 		<div class="flex flex-wrap px-4 pb-4">
 			<Zsh />
 		</div>
-		<div class="grid grid-cols-2 p-8">
+		<div class="grid sm:grid-cols-1 xs:grid-cols-1 grid-cols-2 p-8">
 			<AsciiHegel twclass="m-auto" />
 			<div class="col-span-[30rem] text-justify my-auto">
 				<p class="text-xl pb-2">
@@ -66,7 +66,7 @@
 			</div>
 		</div>
 	</div>
-	<footer class="flex w-2/3 mx-auto bg-negrito2 text-black font-bold">
+	<footer class="flex w-2/3 mx-auto bg-negrito2 text-black font-bold overflow-hidden">
 		<TmuxWorkspace color={"bg-yellow-300"} text={"0"} />
 		<TmuxWorkspace color={"bg-cyan-300"} text={"1 skills"} />
 		<TmuxWorkspace color={"bg-cyan-300"} text={"2 work exp"} />
