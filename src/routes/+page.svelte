@@ -4,7 +4,8 @@
 	import { Circle } from "lucide-svelte";
 	import Zsh from "$lib/components/custom/zsh.svelte";
 	import TmuxWorkspace from "$lib/components/custom/tmux-workspace.svelte";
-	import { Icon } from "svelte-simples";
+	import NeofetchInfo from "$lib/components/custom/neofetch-info.svelte";
+	import AsciiHegel from "$lib/components/custom/ascii-hegel.svelte";
 
 	let date: string = new Date().toLocaleString("en-uk", {
 		day: "numeric",
@@ -18,50 +19,54 @@
 	<title>{config.title}</title>
 </svelte:head>
 
-<section class="h-screen">
-	<div class="h-5/6 w-2/3 bg-gris mx-auto rounded-t-md font-mono">
+<section class="h-screen font-mono">
+	<div class="h-5/6 w-2/3 bg-gris mx-auto rounded-t-md font-mono overflow-auto">
 		<header class="flex justify-end gap-3 p-2">
 			<Circle class="w-4 h-4 text-rojo" fill="#F48484" />
 			<Circle class="w-4 h-4 text-dorado" fill="#ffe194" />
 			<Circle class="w-4 h-4 text-verde" fill="#c0f4aa" />
 		</header>
-		<div class="flex flex-wrap px-4">
+		<div class="flex flex-wrap px-4 pb-4">
 			<Zsh />
 		</div>
-    <!--
-		<div class="border rounded-md mx-auto m-12 w-2/3">
-			<h3 class="text-xl p-4">Languages:</h3>
-			<div class="flex flex-wrap justify-center gap-8 px-12 pb-6">
-				<Icon name="c" class="w-12 h-12" />
-				<Icon name="cplusplus" class="w-12 h-12" />
-				<Icon name="typescript" class="w-12 h-12" />
-				<Icon name="dart" class="w-12 h-12" />
-				<Icon name="gnubash" class="w-12 h-12" />
-				<Icon name="r" class="w-12 h-12" />
+		<div class="grid grid-cols-2 p-8">
+			<AsciiHegel twclass="m-auto" />
+			<div class="col-span-[30rem] text-justify my-auto">
+				<p class="text-xl pb-2">
+					<span class="text-cyan-300 font-bold">hapless</span>@<span
+						class="text-cyan-300 font-bold">dev</span
+					>
+				</p>
+				<p class="text-xl font-bold">----------</p>
+				<NeofetchInfo
+					bold="Languages:"
+					text="TypeScript, Java, C, C++, Dart, R, Bash, Lua"
+				/>
+				<NeofetchInfo
+					bold="CSS & Design:"
+					text="Figma, TailwindCSS, PostCSS, Bootstrap, MaterialUI"
+				/>
+				<NeofetchInfo
+					bold="Databases & Tools:"
+					text="PostgreSQL, MongoDB, Redis, GraphQL, Apollo"
+				/>
+				<NeofetchInfo
+					bold="Security:"
+					text="OAuth, Firebase, JWT, Session cookies, CSFLE, argon2"
+				/>
+				<NeofetchInfo
+					bold="Virtualization & Deployment"
+					text="Docker, Kubernetes, KVM, Render.com, MongoDB Atlas, Vercel"
+				/>
+				<NeofetchInfo
+					bold="DevOps & Methodologies:"
+					text="Vim, Git, GitHub, Tmux, Agile/SCRUM, Shortcut, Jira, Atlassean"
+				/>
+				<NeofetchInfo bold="Linux" text="Ubuntu, Arch, Fedora, Mint" />
 			</div>
 		</div>
-		<div class="border rounded-md w-full mx-auto m-12">
-			<h3 class="text-xl">CSS and Design:</h3>
-			<div class="flex justify-center gap-8 px-12">
-				<Icon name="figma" class="w-12 h-12" />
-				<Icon name="tailwindcss" class="w-12 h-12" />
-				<Icon name="mui" class="w-12 h-12" />
-				<Icon name="postcss" class="w-12 h-12" />
-				<Icon name="bootstrap" class="w-12 h-12" />
-			</div>
-		</div>
-		<div class="border rounded-md w-full mx-auto m-12">
-			<h3 class="text-xl">OS :</h3>
-			<div class="flex justify-center gap-8 px-12">
-        <Icon name="archlinux" class="w-12 h-12" />
-        <Icon name="bspwm" class="w-12 h-12" />
-				<Icon name="tmux" class="w-12 h-12" />
-        <Icon name="neovim" class="w-12 h-12" />
-			</div>
-		</div>
-    -->
 	</div>
-	<footer class="flex w-2/3 mx-auto font-mono bg-negrito2 text-black font-bold">
+	<footer class="flex w-2/3 mx-auto bg-negrito2 text-black font-bold">
 		<TmuxWorkspace color={"bg-yellow-300"} text={"0"} />
 		<TmuxWorkspace color={"bg-cyan-300"} text={"1 skills"} />
 		<TmuxWorkspace color={"bg-cyan-300"} text={"2 work exp"} />
@@ -77,6 +82,7 @@
 	class="w-5/6 mx-auto my-24 sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-1/3 xl2:w-1/3"
 >
 	<ul class="w-full">
+		<h1 class="text-5xl text-dorado underline text-center"><b>Blog</b></h1>
 		{#each data.posts as post}
 			<li class="my-12">
 				<article class="pb-12">
