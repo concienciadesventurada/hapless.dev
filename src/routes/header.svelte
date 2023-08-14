@@ -12,7 +12,10 @@
 <nav class="flex justify-between gap-8 p-12">
 	<a href="/" class="border-b-4 border-dorado"><b>{config.title}</b></a>
 
-	<ul class="flex justify-items-end gap-12">
+	<ul class="flex justify-items-end gap-12 sm:hidden xs:hidden">
+		<li>
+			<a href="/blog">Blog</a>
+		</li>
 		<li>
 			<a href="/about">About</a>
 		</li>

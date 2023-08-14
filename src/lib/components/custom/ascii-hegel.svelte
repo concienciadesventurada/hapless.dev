@@ -3,7 +3,7 @@
 </script>
 
 <div class={twclass}>
-	<pre class="sm:hidden xs:hidden font-mono font-bold whitespace-pre">
+	<pre class="sm:hidden xs:hidden md:hidden font-mono font-bold whitespace-pre">
 K00OOkkkkkkkkkOOkOOkkOO0000O00O0000OOOOO
 K0XNNNNNNXXXXXXX0O0KKKXXXXXXXXXXXXXXXXKO
 K0NMMMMMMMMMNkl:'.''',;ckNMMMMMMMMMMMMN0
