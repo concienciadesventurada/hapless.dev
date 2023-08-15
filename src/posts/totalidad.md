@@ -1,7 +1,7 @@
 ---
 title: Totalidad
-description: Una mirada al progresismo posmoderno
-date: 08-11-2022
+description: Un poema suelto
+date: 2022-11-08
 categories:
   - poesia
 published: true

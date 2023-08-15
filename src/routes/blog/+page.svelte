@@ -1,11 +1,16 @@
 <script lang="ts">
-	import { formatDate } from "$lib/utils";
+	import * as config from "$lib/config";
+	import { formatDate } from "$lib/utils.js";
 
 	export let data;
 </script>
 
+<svelte:head>
+	<title>{config.title} | Blog</title>
+</svelte:head>
+
 <section
-	class="w-5/6 mx-auto my-24 sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-1/3 xl2:w-1/3"
+	class="h-screen w-5/6 mx-auto my-24 sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-1/3 xl2:w-1/3"
 >
 	<ul class="w-full">
 		<h1 class="text-5xl text-dorado underline text-center"><b>Blog</b></h1>
@@ -32,9 +37,6 @@
 						>
 							{post.description === null ? "" : `${post.description}`}
 						</p>
-						<div class="flex items-center justify-center pt-12">
-							<hr class="border w-2/5 border-dotted" />
-						</div>
 					</a>
 				</article>
 			</li>

@@ -1,7 +1,7 @@
 ---
-title: "Sobre la conciencia desventurada y el proposito del blog"
-description: Una corta e insipida introduccion
-date: 08-08-2023
+title: "El propósito del blog"
+description: Un corto abordaje sobre mis intenciones con mi plataforma y mi propia conciencia desventurada
+date: 2023-08-08
 categories:
   - filosofia
   - programacion

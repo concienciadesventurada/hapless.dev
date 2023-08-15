@@ -16,8 +16,8 @@
 	<title>{config.title}</title>
 </svelte:head>
 
-<section class="h-screen font-mono">
-	<div class="h-5/6 w-2/3 bg-gris mx-auto rounded-t-md font-mono overflow-auto">
+<section class="h-screen font-mono my-auto pb-12">
+	<div class="h-5/6 w-2/3 xs:w-5/6 sm:w-10/12 bg-gris mx-auto rounded-t-md font-mono overflow-auto">
 		<header class="flex justify-end gap-3 p-2">
 			<Circle class="w-4 h-4 text-rojo" fill="#F48484" />
 			<Circle class="w-4 h-4 text-dorado" fill="#ffe194" />
@@ -26,7 +26,9 @@
 		<div class="flex flex-wrap px-4 pb-4">
 			<Zsh />
 		</div>
-		<div class="grid sm:grid-cols-1 xs:grid-cols-1 md:grid-cols-1 grid-cols-2 p-8">
+		<div
+			class="grid sm:grid-cols-1 xs:grid-cols-1 md:grid-cols-1 grid-cols-2 p-8"
+		>
 			<AsciiHegel twclass="m-auto" />
 			<div class="col-span-[30rem] text-justify my-auto">
 				<p class="text-xl pb-2">
@@ -57,13 +59,15 @@
 				/>
 				<NeofetchInfo
 					bold="DevOps & Methodologies:"
-					text="Vim, Git, GitHub, Tmux, Agile/SCRUM, Shortcut, Jira, Atlassean"
+					text="Vim, Neovim, Git, GitHub, Tmux, Agile/SCRUM, Shortcut, Jira, Atlassean"
 				/>
 				<NeofetchInfo bold="Linux" text="Ubuntu, Arch, Fedora, Mint" />
 			</div>
 		</div>
 	</div>
-	<footer class="flex w-2/3 mx-auto bg-negrito2 text-black font-bold overflow-hidden">
+	<footer
+		class="flex w-2/3 xs:w-5/6 sm:w-10/12 mx-auto bg-negrito2 text-black font-bold overflow-hidden"
+	>
 		<TmuxWorkspace color={"bg-yellow-300"} text={"0"} />
 		<TmuxWorkspace color={"bg-cyan-300"} text={"1 skills"} />
 		<TmuxWorkspace color={"bg-cyan-300"} text={"2 work exp"} />
@@ -74,4 +78,3 @@
 		</div>
 	</footer>
 </section>
-

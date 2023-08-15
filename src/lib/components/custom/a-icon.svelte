@@ -5,6 +5,7 @@
 	export let href: string;
 	export let color = "#FFFFFF";
 	export let twclass: string = "";
+  export let text: string = "";
 </script>
 
-<a {href}><Icon {name} {color} class={twclass} /></a>
+<a {href} class="flex gap-4"><Icon {name} {color} class={twclass} />{text}</a>
