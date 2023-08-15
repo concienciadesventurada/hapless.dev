@@ -3,5 +3,5 @@
 	export let color: string;
 </script>
 
-<div class="{color} px-4">{text}</div>
+<button class="{color} px-4 mx-1" on:click><div>{text}</div></button>
 <span class="w-3 h-3" />

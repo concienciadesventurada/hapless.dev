@@ -1,10 +1,10 @@
 <script lang="ts">
 	import { MoveRight } from "lucide-svelte";
 
-	let dir: string = ":";
-	let branch: string = "main";
-	let git: string = "git(";
-	let cmd: string = "./show-resume.sh";
+	export let dir: string = ":";
+	export let branch: string = "main";
+	export let git: string = "git(";
+	export let cmd: string;
 </script>
 
 <div class="flex flex-wrap text-2xl gap-8 items-baseline font-mono">
