@@ -27,7 +27,7 @@
 			<Zsh />
 		</div>
 		<div
-			class="grid sm:grid-cols-1 xs:grid-cols-1 md:grid-cols-1 grid-cols-2 p-8"
+			class="grid sm:grid-cols-1 xs:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 grid-cols-2 p-8"
 		>
 			<AsciiHegel twclass="m-auto" />
 			<div class="col-span-[30rem] text-justify my-auto">

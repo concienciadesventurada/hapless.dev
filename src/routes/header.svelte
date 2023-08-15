@@ -1,23 +1,33 @@
 <script lang="ts">
 	import * as config from "$lib/config";
-	import { Sun, Moon } from "lucide-svelte";
+	import { Sun, Moon, Menu } from "lucide-svelte";
 
 	let theme: boolean = false;
+  let hidden: boolean = true;
+
+	function showMenu() {
+		hidden = !hidden;
+	}
 
 	function toggleTheme() {
 		theme = !theme;
 	}
 </script>
 
-<nav class="flex justify-between gap-8 p-12 items-baseline">
+<nav class="flex flex-wrap justify-between gap-8 p-12 items-center">
 	<a href="/" class="border-b-4 border-dorado"><b>{config.title}</b></a>
 
-	<ul class="flex justify-items-end gap-12 sm:hidden xs:hidden">
+	<button class="md:hidden" on:click={showMenu}>
+		<Menu />
+	</button>
+	<ul
+		class="{hidden ? 'hidden': 'none flex flex-col gap-6 items-center justify-end'} w-full md:w-auto md:flex md:justify-items-end md:gap-12"
+	>
 		<li>
-			<a href="/blog">Blog</a>
+			<a href="/blog" on:click={showMenu}>Blog</a>
 		</li>
 		<li>
-			<a href="/about">About</a>
+			<a href="/about" on:click={showMenu}>About</a>
 		</li>
 		<button on:click={toggleTheme}>
 			{#if theme}
