@@ -13,7 +13,7 @@
 	<p class="text-xl font-bold">-----------</p>
 	<NeofetchInfo
 		bold="Languages:"
-		text="TypeScript, Java, C, C++, Dart, R, Bash, Lua"
+		text="TypeScript, C#, C, C++, Dart, R, Bash, Lua"
 	/>
 	<NeofetchInfo
 		bold="CSS & Design:"

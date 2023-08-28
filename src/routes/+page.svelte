@@ -4,6 +4,7 @@
 	import Zsh from "$lib/components/custom/zsh.svelte";
 	import TmuxWorkspace from "$lib/components/custom/tmux-workspace.svelte";
 	import Skills from "$lib/components/custom/skills.svelte";
+	import WorkExp from "$lib/components/custom/work-exp.svelte";
 
 	let date: string = new Date().toLocaleString("en-uk", {
 		day: "numeric",
@@ -28,9 +29,9 @@
 		class="h-5/6 w-2/3 xs:w-5/6 sm:w-10/12 bg-gris mx-auto rounded-t-md font-mono overflow-auto"
 	>
 		<header class="flex justify-end gap-3 p-2">
-			<Circle class="w-4 h-4 text-rojo" fill="#F48484" />
-			<Circle class="w-4 h-4 text-dorado" fill="#ffe194" />
-			<Circle class="w-4 h-4 text-verde" fill="#c0f4aa" />
+			<Circle class="cursor-pointer hover:opacity-75 w-4 h-4 text-rojo" fill="#F48484" />
+			<Circle class="cursor-pointer hover:opacity-75 w-4 h-4 text-dorado" fill="#ffe194" />
+			<Circle class="cursor-pointer hover:opacity-75 w-4 h-4 text-verde" fill="#c0f4aa" />
 		</header>
 		<div class="flex flex-wrap px-4 pb-4">
 			{#if workspace === 1}
@@ -47,7 +48,7 @@
 			{#if workspace === 1}
 				<Skills />
 			{:else if workspace === 2}
-				<p>TODO:</p>
+        <WorkExp />
 			{:else if workspace === 3}
 				<p>TODO:</p>
 			{/if}
