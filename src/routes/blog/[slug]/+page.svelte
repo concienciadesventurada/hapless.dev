@@ -25,7 +25,7 @@
 		</p>
 	</hgroup>
 
-	<div class="prose dark:prose-invert">
+	<div class="prose dark:prose-invert text-justify">
 		<svelte:component this={data.content} />
 	</div>
 
