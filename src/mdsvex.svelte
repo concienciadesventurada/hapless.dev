@@ -1,5 +1,5 @@
 <script lang="ts" context="module">
-	import Img from "$lib/components/custom/img.svelte";
+	import Img from "$lib/components/img.svelte";
 
 	export { Img };
 </script>

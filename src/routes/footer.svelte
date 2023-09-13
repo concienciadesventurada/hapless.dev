@@ -1,6 +1,6 @@
 <script lang="ts">
 	import * as config from "$lib/config";
-	import AIcon from "$lib/components/custom/a-icon.svelte";
+	import AIcon from "$lib/components/a-icon.svelte";
 </script>
 
 <footer class="flex flex-col items-center p-24 border-t-white bg-negrito2">

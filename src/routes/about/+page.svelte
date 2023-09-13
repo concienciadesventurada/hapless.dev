@@ -1,7 +1,7 @@
 <script lang="ts">
 	import * as config from "$lib/config";
 	import { Mail } from "lucide-svelte";
-	import AIcon from "$lib/components/custom/a-icon.svelte";
+	import AIcon from "$lib/components/a-icon.svelte";
 </script>
 
 <svelte:head>

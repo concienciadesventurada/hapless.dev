@@ -1,10 +1,10 @@
 <script lang="ts">
 	import * as config from "$lib/config";
 	import { Circle } from "lucide-svelte";
-	import Zsh from "$lib/components/custom/zsh.svelte";
-	import TmuxWorkspace from "$lib/components/custom/tmux-workspace.svelte";
-	import Skills from "$lib/components/custom/skills.svelte";
-	import WorkExp from "$lib/components/custom/work-exp.svelte";
+	import Zsh from "$lib/components/zsh.svelte";
+	import TmuxWorkspace from "$lib/components/tmux-workspace.svelte";
+	import Skills from "$lib/components/skills.svelte";
+	import WorkExp from "$lib/components/work-exp.svelte";
 
 	let date: string = new Date().toLocaleString("en-uk", {
 		day: "numeric",

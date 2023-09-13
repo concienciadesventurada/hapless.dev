@@ -8,7 +8,7 @@ published: true
 ---
 
 <script>
-    import Image from "$lib/components/custom/img.svelte";
+    import Image from "$lib/components/img.svelte";
 </script>
 
 Soy la _Pasión según San Mateo_
