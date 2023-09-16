@@ -1,16 +1,12 @@
 <script lang="ts">
-  import { AsciiHegel } from "$lib";
-  import { NeofetchInfo } from "$lib";
+	import { NeofetchInfo } from "$lib";
 </script>
 
-<AsciiHegel twclass="m-auto" />
-<div class="col-span-[30rem] text-justify my-auto">
-	<p class="text-xl pb-2">
-		<span class="text-cyan-300 font-bold">hapless</span>@<span
-			class="text-cyan-300 font-bold">dev</span
-		>
-	</p>
-	<p class="text-xl font-bold">-----------</p>
+<div class="p-4 col-span-[30rem] text-justify my-auto">
+	<div>
+		<h3 class="font-bold text-cyan-300">hapless<span class="text-white">@</span>dev</h3>
+		<b>-----------</b>
+	</div>
 	<NeofetchInfo
 		bold="Languages:"
 		text="TypeScript, C#, C, C++, Dart, R, Bash, Lua"
@@ -28,12 +24,12 @@
 		text="OAuth, Firebase, JWT, Session cookies, CSFLE, argon2"
 	/>
 	<NeofetchInfo
-		bold="Virtualization & Deployment"
+		bold="Virtualization & Deployment:"
 		text="Docker, Kubernetes, KVM, Render.com, MongoDB Atlas, Vercel"
 	/>
 	<NeofetchInfo
 		bold="DevOps & Methodologies:"
 		text="Vim, Neovim, Git, GitHub, Tmux, Agile/SCRUM, Shortcut, Jira, Atlassean"
 	/>
-	<NeofetchInfo bold="Linux" text="Ubuntu, Arch, Fedora, Mint" />
+	<NeofetchInfo bold="Linux:" text="Ubuntu, Arch, Fedora, Mint" />
 </div>
