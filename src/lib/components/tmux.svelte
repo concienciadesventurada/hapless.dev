@@ -15,7 +15,7 @@
 	let workspace: Workspace = 1;
 </script>
 
-<section class="flex mx-auto font-mono w-5/6 bg-negrito2 text-sm text-black font-bold overflow-hidden">
+<section class="flex mx-auto w-5/6 bg-negrito2 text-sm text-black font-bold overflow-hidden">
 	<TmuxWorkspace color={"bg-yellow-300"} text={"0"} />
 	<TmuxWorkspace
 		color={workspace === 1 ? "bg-cyan-300" : "bg-gray-300"}
@@ -26,6 +26,6 @@
 	/>
 	<div class="flex justify-end ml-auto items-end">
 		<div class="text-white px-4">{date}</div>
-		<div class="bg-red-500 text-white px-4">matias</div>
+		<div class="bg-red-500 text-white px-4 h-full">matias</div>
 	</div>
 </section>

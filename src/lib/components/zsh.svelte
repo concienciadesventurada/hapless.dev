@@ -7,7 +7,7 @@
 	export let cmd: string;
 </script>
 
-<div class="flex flex-wrap gap-4 px-4">
+<div class="flex flex-wrap gap-4 px-4 text-xl">
 	<MoveRight class="text-green-600" color="#c0f4aa" strokeWidth="4" />
 	<p class="font-bold">
 		<span class="text-cyan-300 font-bold">{dir}</span>

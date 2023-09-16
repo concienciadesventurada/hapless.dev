@@ -11,7 +11,7 @@
 
 		setTimeout(function () {
 			skills?.classList.toggle("hidden");
-		}, 1700);
+		}, 1850);
 	});
 </script>
 
@@ -19,13 +19,13 @@
 	<title>{config.title}</title>
 </svelte:head>
 
-<section
-	class="relative w-5/6 h-screen mx-auto font-mono overflow-auto bg-gris text-2xl rounded-t-md"
->
-	<TerminalWindow />
-	<Zsh cmd="./show-skills.sh" />
-	<div class="hidden" id="skills">
-		<Skills />
+<section class="h-screen font-mono my-auto">
+	<div class="h-5/6 w-5/6 bg-gris mx-auto rounded-t-md overflow-auto">
+		<TerminalWindow />
+		<Zsh cmd="./show-skills.sh" />
+		<div class="md:flex md:justify-center md:h-3/4 md:my-auto md:items-center hidden" id="skills">
+			<Skills />
+		</div>
 	</div>
+	<Tmux />
 </section>
-<Tmux />

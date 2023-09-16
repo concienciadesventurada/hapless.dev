@@ -2,8 +2,8 @@
 	import { NeofetchInfo } from "$lib";
 </script>
 
-<div class="p-4 col-span-[30rem] text-justify my-auto min-h-1/3">
-	<div>
+<div class="p-6 text-justify my-auto">
+	<div class="text-xl">
 		<h3 class="font-bold text-cyan-300">
 			hapless<span class="text-white">@</span>dev
 		</h3>
@@ -19,7 +19,7 @@
 	/>
 	<NeofetchInfo
 		bold="Databases & Tools:"
-		text="PostgreSQL, MongoDB, Redis, GraphQL, Apollo"
+		text="PostgreSQL, MongoDB, Redis, GraphQL, Apollo, MSSQL"
 	/>
 	<NeofetchInfo
 		bold="Security:"
