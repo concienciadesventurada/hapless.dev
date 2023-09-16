@@ -2,9 +2,11 @@
 	import { NeofetchInfo } from "$lib";
 </script>
 
-<div class="p-4 col-span-[30rem] text-justify my-auto">
+<div class="p-4 col-span-[30rem] text-justify my-auto min-h-1/3">
 	<div>
-		<h3 class="font-bold text-cyan-300">hapless<span class="text-white">@</span>dev</h3>
+		<h3 class="font-bold text-cyan-300">
+			hapless<span class="text-white">@</span>dev
+		</h3>
 		<b>-----------</b>
 	</div>
 	<NeofetchInfo
