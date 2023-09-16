@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Circle } from "lucide-svelte";
+	import { Circle } from "lucide-svelte";
 </script>
 
 <div class="flex justify-end gap-3 p-2">

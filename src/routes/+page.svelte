@@ -23,7 +23,7 @@
 	<div class="h-5/6 w-5/6 bg-gris mx-auto rounded-t-md overflow-auto">
 		<TerminalWindow />
 		<Zsh cmd="./show-skills.sh" />
-		<div class="md:flex md:justify-center md:h-5/6 md:my-auto md:items-center hidden" id="skills">
+		<div class="flex justify-center h-5/6 my-auto items-center hidden" id="skills">
 			<Skills />
 		</div>
 	</div>
