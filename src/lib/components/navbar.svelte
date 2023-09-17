@@ -1,7 +1,6 @@
 <script lang="ts">
 	import { onMount } from "svelte";
-	import * as config from "$lib/config";
-	import { Menu, MoreVertical } from "lucide-svelte";
+	import { Menu } from "lucide-svelte";
 
 	let hidden: boolean = false;
 
@@ -29,11 +28,9 @@
 >
 	<hgroup class="flex w-full justify-between items-stretch pb-6 md:pb-0">
 		<a href="/" class="border-b-4 border-dorado">hapless.dev</a>
-		<button class="md:hidden" id="menu-button">
-			<Menu />
-		</button>
+		<button class="md:hidden" id="menu-button"><Menu /><button/>
 	</hgroup>
-	<ul class="hidden md:flex md:justify-end w-full" id="menu">
+	<ul class="md:flex md:justify-end hidden" id="menu">
 		<li class="py-4 md:px-6 hover:text-gray-300 duration-300">
 			<a href="/blog">blog</a>
 		</li>
@@ -42,10 +39,3 @@
 		</li>
 	</ul>
 </nav>
-
-<style>
-	a {
-		color: inherit;
-		text-decoration: none;
-	}
-</style>

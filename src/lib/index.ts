@@ -5,7 +5,9 @@ import Zsh from "./components/zsh.svelte";
 import TmuxWorkspace from "./components/tmux-workspace.svelte";
 import AsciiHegel from "./components/ascii-hegel.svelte";
 import NeofetchInfo from "./components/neofetch-info.svelte";
-import SkillsWorkspace from "./components/skills.svelte";
+import Skills from "./components/skills.svelte";
+import TerminalWindow from "./components/terminal-window.svelte";
+import Tmux from "./components/tmux.svelte";
 
 export {
 	img,
@@ -15,5 +17,7 @@ export {
 	TmuxWorkspace,
 	AsciiHegel,
 	NeofetchInfo,
-	SkillsWorkspace
+	Skills,
+	TerminalWindow,
+	Tmux
 };
