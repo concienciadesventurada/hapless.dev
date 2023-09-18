@@ -10,30 +10,23 @@
 	<meta property="og:title" content={data.meta.title} />
 </svelte:head>
 
-<article
-	class="w-5/6 mx-auto my-12 sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-7/12 xl2:w-1/3"
->
-	<hgroup
-		class="flex flex-col justify-center items-baseline
-  md:flex md:justify-between"
-	>
-		<h1 class="text-5xl text-dorado">
-			<b>{data.meta.title}</b>
+<article class="w-5/6 md:w-2/3 lg:w-3/5 xl:w-1/3 mx-auto text-justify py-6">
+	<hgroup class="flex flex-col gap-6">
+		<h1 class="font-bold text-dorado text-2xl md:text-4xl">
+			{data.meta.title}
 		</h1>
-		<p class="pt-10 pb-4 text-md text-right">
-			<b>{formatDate(data.meta.date)}</b>
+		<p class="text-end">
+			{formatDate(data.meta.date)}
 		</p>
 	</hgroup>
 
-	<div class="prose dark:prose-invert text-justify">
+	<div class="py-6 prose dark:prose-invert text-justify">
 		<svelte:component this={data.content} />
 	</div>
 
-	<div class="flex flex-wrap text-left mt-10">
+	<div class="flex flex-wrap">
 		{#each data.meta.categories as category}
-			<span class="bg-gris rounded-2xl mx-2 my-2 py-2 px-6"
-				>&num;{category}</span
-			>
+			<span class="bg-gris rounded-full py-2 px-6 my-2 mr-2">&num;{category}</span>
 		{/each}
 	</div>
 </article>
