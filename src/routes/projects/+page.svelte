@@ -3,10 +3,10 @@
 	import Icon from "$lib/components/icon.svelte";
 </script>
 
-<h2 class="text-center underline pb-4 font-bold text-dorado text-xl mx-auto">
+<h2 class="text-center underline py-6 font-bold text-dorado text-2xl mx-auto">
 	Stacy Pizarro's dancer portfolio and gallery
 </h2>
-<section class="w-5/6 grid lg:grid-cols-2 gap-4 lg:gap-16 mx-auto">
+<section class="w-5/6 md:w-2/3 grid lg:grid-cols-2 gap-4 lg:gap-16 mx-auto">
 	<div class="lg:col-span-[4rem] my-auto">
 		<img src={stacy} alt="www.stacypizarro.com" />
 	</div>
@@ -40,6 +40,11 @@
 					title="TailwindCSS"
 					path="M12.001,4.8c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 C13.666,10.618,15.027,12,18.001,12c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C16.337,6.182,14.976,4.8,12.001,4.8z M6.001,12c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 c1.177,1.194,2.538,2.576,5.512,2.576c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C10.337,13.382,8.976,12,6.001,12z"
 				/>
+				<Icon
+					fill="#ECD53F"
+					title=".ENV"
+					path="M24 0v24H0V0h24ZM10.933 15.89H6.84v5.52h4.198v-.93H7.955v-1.503h2.77v-.93h-2.77v-1.224h2.978v-.934Zm2.146 0h-1.084v5.52h1.035v-3.6l2.226 3.6h1.118v-5.52h-1.036v3.686l-2.259-3.687Zm5.117 0h-1.208l1.973 5.52h1.19l1.976-5.52h-1.182l-1.352 4.085-1.397-4.086ZM5.4 19.68H3.72v1.68H5.4v-1.68Z"
+				/>
 			</div>
 		</div>
 		<hr class="border-2 border-azulito border-dashed h-20 w-[1px] mx-auto" />
@@ -62,8 +67,13 @@
 					title="NGINX"
 					path="M12 0L1.605 6v12L12 24l10.395-6V6L12 0zm6 16.59c0 .705-.646 1.29-1.529 1.29-.631 0-1.351-.255-1.801-.81l-6-7.141v6.66c0 .721-.57 1.29-1.274 1.29H7.32c-.721 0-1.29-.6-1.29-1.29V7.41c0-.705.63-1.29 1.5-1.29.646 0 1.38.255 1.83.81l5.97 7.141V7.41c0-.721.6-1.29 1.29-1.29h.075c.72 0 1.29.6 1.29 1.29v9.18H18z"
 				/>
+				<Icon
+					fill="#FF6600"
+					title="RabbitMQ"
+					path="M23.035 9.601h-7.677a.956.956 0 01-.962-.962V.962a.956.956 0 00-.962-.956H10.56a.956.956 0 00-.962.956V8.64a.956.956 0 01-.962.962H5.762a.956.956 0 01-.961-.962V.962A.956.956 0 003.839 0H.959a.956.956 0 00-.956.962v22.076A.956.956 0 00.965 24h22.07a.956.956 0 00.962-.962V10.58a.956.956 0 00-.962-.98zm-3.86 8.152a1.437 1.437 0 01-1.437 1.443h-1.924a1.437 1.437 0 01-1.436-1.443v-1.917a1.437 1.437 0 011.436-1.443h1.924a1.437 1.437 0 011.437 1.443z"
+				/>
 			</div>
-			<h4 class="font-mono font-bold text-dorado">back-end</h4>
+			<h4 class="font-mono font-bold text-dorado mx-auto">back-end</h4>
 		</div>
 	</div>
 </section>

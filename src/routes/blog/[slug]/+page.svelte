@@ -11,7 +11,7 @@
 </svelte:head>
 
 <article
-	class="w-5/6 mx-auto my-12 sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-7/12 xl2:w-1/3"
+	class="w-5/6 mx-auto my-12 md:w-1/2 lg:w-1/3"
 >
 	<hgroup
 		class="flex flex-col justify-center items-baseline

@@ -3,8 +3,8 @@
 
 	export let name: string;
 	export let href: string;
-	export let color = "#FFFFFF";
-	export let twclass: string = "";
+	export let color = "#FFFFFF5D";
+	export let twclass: string = "duration-200 hover:bg-white";
   export let text: string = "";
 </script>
 
