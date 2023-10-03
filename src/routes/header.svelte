@@ -35,6 +35,9 @@
 	</hgroup>
 	<ul class="hidden md:flex md:justify-end w-full" id="menu">
 		<li class="py-4 md:px-6 hover:text-gray-300 duration-300">
+			<a href="/projects">projects</a>
+		</li>
+		<li class="py-4 md:px-6 hover:text-gray-300 duration-300">
 			<a href="/blog">blog</a>
 		</li>
 		<li class="py-4 md:px-6 hover:text-gray-300 duration-300">
