@@ -1,1 +1,1 @@
-<hr class="border-2 border-azulito border-dashed h-20 w-[1px] mx-auto" />
+<hr class="border-l-2 border-azulito border-dashed w-min h-20 mx-auto" />
