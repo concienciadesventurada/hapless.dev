@@ -12,7 +12,17 @@
 
 <Project
 	title="Stacy Pizarro's dancer portfolio & gallery"
-	description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+	description="The acclaimed costarican dancer Stacy Pizarro. A simple design
+  yet effective to get the point across: how outstanding is Stacy's work. The
+  web page sports an elegant, minimalist design with core routes such as a bio,
+  a gallery, a projects section with each having their own page and a contact
+  page. It was made with SvelteKit using TypeScript and the styling was
+  tailor-made for her using TailwindCSS. It has an admin route where she can
+  modify her current photos displayed on all pages. The front end was deployed
+  on Vercel and the backend consists on a series of .NET web APIs containerized
+  with Docker and communicated via RabbitMQ. All requests are handled by nginx
+  and it manages its assets using Cloudinary and a combination of MSSQL and
+  PostgresQL"
   href="https://stacypizarro.com"
 	alt="www.stacypizarro.com/projects"
 	src="https://res.cloudinary.com/dlzjvgzz7/image/upload/v1696388200/hapless.dev/projects/meczoq6bjtixnqwmcflp.png"

@@ -12,7 +12,7 @@
 	{title}
 </h2>
 <section class="project-container">
-	<a {href}>
+	<a {href} class="my-auto">
 		<img {src} {alt} class="my-auto" />
 	</a>
 	<div class="my-auto">

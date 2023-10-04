@@ -26,5 +26,5 @@
 			twclass="w-8 h-8"
 		/>
 	</div>
-	<p class="text-sm">{config.title} &copy {new Date().getFullYear()}</p>
+	<p class="text-sm text-[#FFFFFF3D]">{config.title} &copy {new Date().getFullYear()}</p>
 </footer>
