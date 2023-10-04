@@ -10,7 +10,8 @@ export default {
 				dorado: "#FFE194",
 				verde: "#C9F4AA",
 				rojo: "#F48484",
-				azulito: "#AEE2FF"
+				azulito: "#AEE2FF",
+				azulitopaco: "#AEE2FF3D"
 			},
 			animation: {
 				typing: "typing 0.8s steps(10), blink 0.74s infinite"
