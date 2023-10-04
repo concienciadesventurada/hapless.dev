@@ -4,7 +4,7 @@
 	export let name: string;
 	export let href: string;
 	export let color = "#FFFFFF";
-	export let twclass: string = "";
+	export let twclass: string = "duration-200 text-white";
   export let text: string = "";
 </script>
 

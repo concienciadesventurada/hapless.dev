@@ -25,7 +25,7 @@
 </script>
 
 <nav
-	class="flex flex-col md:flex-row p-8 md:py-4 justify-between md:justify-center items-center md:text-xl"
+	class="flex flex-col md:flex-row px-8 pt-6 md:py-4 justify-between md:justify-center items-center lg:text-xl"
 >
 	<hgroup class="flex w-full justify-between items-stretch pb-6 md:pb-0">
 		<a href="/" class="border-b-4 border-dorado">hapless.dev</a>
@@ -33,7 +33,10 @@
 			<Menu />
 		</button>
 	</hgroup>
-	<ul class="hidden md:flex md:justify-end w-full" id="menu">
+	<ul class="hidden md:flex md:justify-end w-full pb-6 md:pb-0" id="menu">
+		<li class="py-4 md:px-6 hover:text-gray-300 duration-300">
+			<a href="/projects">projects</a>
+		</li>
 		<li class="py-4 md:px-6 hover:text-gray-300 duration-300">
 			<a href="/blog">blog</a>
 		</li>
