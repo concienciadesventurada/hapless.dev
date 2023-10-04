@@ -1,6 +1,5 @@
 <script lang="ts">
 	import * as config from "$lib/config";
-	import stacy from "$lib/stacy.png";
 	import Icon from "$lib/components/icon.svelte";
 	import Project from "$lib/components/project.svelte";
 	import TechStack from "$lib/components/tech-stack.svelte";
@@ -14,8 +13,9 @@
 <Project
 	title="Stacy Pizarro's dancer portfolio & gallery"
 	description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  href="https://stacypizarro.com"
 	alt="www.stacypizarro.com/projects"
-	src={stacy}
+	src="https://res.cloudinary.com/dlzjvgzz7/image/upload/v1696388200/hapless.dev/projects/meczoq6bjtixnqwmcflp.png"
 >
 	<TechStack layer="front-end">
 		<Icon

@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { NeofetchInfo } from "$lib";
+	import resume from "$lib/assets/hapless-dev-resume.pdf";
 </script>
 
 <div class="p-6 text-justify my-auto">
@@ -34,4 +35,9 @@
 		text="Vim, Neovim, Git, GitHub, Tmux, Agile/SCRUM, Shortcut, Jira, Atlassean"
 	/>
 	<NeofetchInfo bold="Linux:" text="Ubuntu, Arch, Fedora, Mint" />
+	<a href={resume} download="hapless-dev-resume" class="text-2xl font-bold">
+		<p class="text-cyan-300 pt-6 underline text-center uppercase">
+			download resume
+		</p></a
+	>
 </div>

@@ -11,7 +11,7 @@
 
 		setTimeout(function () {
 			skills?.classList.toggle("hidden");
-		}, 1850);
+		}, 800);
 	});
 </script>
 
