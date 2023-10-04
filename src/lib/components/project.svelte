@@ -22,4 +22,4 @@
 		<slot />
 	</div>
 </section>
-<hr class="border-b-azulito my-6 w-5/6 mx-auto" />
+<hr class="border-b border-azulitopaco my-6 lg:my-12 w-1/3 md:w-1/2 mx-auto" />

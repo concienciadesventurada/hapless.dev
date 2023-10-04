@@ -22,7 +22,7 @@
   on Vercel and the backend consists on a series of .NET web APIs containerized
   with Docker and communicated via RabbitMQ. All requests are handled by nginx
   and it manages its assets using Cloudinary and a combination of MSSQL and
-  PostgresQL"
+  PostgresQL."
   href="https://stacypizarro.com"
 	alt="www.stacypizarro.com/projects"
 	src="https://res.cloudinary.com/dlzjvgzz7/image/upload/v1696388200/hapless.dev/projects/meczoq6bjtixnqwmcflp.png"
