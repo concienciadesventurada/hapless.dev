@@ -6,7 +6,7 @@
 </script>
 
 <svg
-  class="p-2 md:p-0 mx-auto w-20 hover:duration-200"
+  class="p-2 md:p-0 mx-auto w-20 hover:duration-300 ease-in-out"
 	on:mouseenter={() => {
 		hover = true;
 	}}
