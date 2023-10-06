@@ -19,12 +19,12 @@
 		<h1 class="text-5xl text-dorado">
 			<b>{data.meta.title}</b>
 		</h1>
-		<p class="text-end">
+		<p class="text-left py-6">
 			{formatDate(data.meta.date)}
 		</p>
 	</hgroup>
 
-	<div class="py-6 prose dark:prose-invert text-justify">
+	<div class="py-6 prose prose-invert text-justify">
 		<svelte:component this={data.content} />
 	</div>
 
