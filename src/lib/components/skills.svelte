@@ -15,6 +15,10 @@
 		text="TypeScript, C#, C, C++, Dart, R, Bash, Lua"
 	/>
 	<NeofetchInfo
+		bold="Frameworks:"
+		text="React, Svelte, Next.js 13"
+	/>
+	<NeofetchInfo
 		bold="CSS & Design:"
 		text="Figma, TailwindCSS, PostCSS, Bootstrap, MaterialUI"
 	/>
