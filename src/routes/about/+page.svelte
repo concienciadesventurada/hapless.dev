@@ -8,19 +8,17 @@
 	<title>About | {config.title}</title>
 </svelte:head>
 
-<section
-	class="w-5/6 md:w-1/2 lg:w-2/5 xl:w-1/3 mx-auto text-justify py-4 md:py-24"
->
+<section class="w-5/6 mx-auto my-12 md:w-1/2 lg:w-1/3">
 	<div class="flex flex-col gap-4">
 		<h1 class="font-bold text-dorado text-2xl font-mono">
-			I'm hapless, your passionate full-stack developer with a flair for
+			Your hapless and passionate full-stack developer with a flair for
 			innovation
 		</h1>
-		<p class="">
+		<p>
 			Based in Central America. I'm a self-taught programmer with experience in
 			various fields, from web development to data analysis and statistics.
 		</p>
-		<p class="">
+		<p>
 			With a proven track record of crafting dynamic and efficient digital
 			solutions. Currently spearheading groundbreaking projects at Orbitas
 			Software Development. Adept at merging creativity and technical expertise
