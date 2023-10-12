@@ -28,7 +28,7 @@
 			for authentication and authorization.
 		</p>
 		<p>
-			The backend consists on a series of.NET web APIs microservices
+			The backend consists on a series of .NET web APIs microservices
 			containerized with Docker and communicated via RabbitMQ. All requests are
 			handled by nginx as a reverse proxy and load balancer and it manages its
 			assets using Cloudinary and a combination of MSSQL and PostgresQL using
@@ -52,11 +52,6 @@
 			fill="#06B6D4"
 			title="TailwindCSS"
 			path="M12.001,4.8c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 C13.666,10.618,15.027,12,18.001,12c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C16.337,6.182,14.976,4.8,12.001,4.8z M6.001,12c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 c1.177,1.194,2.538,2.576,5.512,2.576c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C10.337,13.382,8.976,12,6.001,12z"
-		/>
-		<Icon
-			fill="#ECD53F"
-			title=".ENV"
-			path="M24 0v24H0V0h24ZM10.933 15.89H6.84v5.52h4.198v-.93H7.955v-1.503h2.77v-.93h-2.77v-1.224h2.978v-.934Zm2.146 0h-1.084v5.52h1.035v-3.6l2.226 3.6h1.118v-5.52h-1.036v3.686l-2.259-3.687Zm5.117 0h-1.208l1.973 5.52h1.19l1.976-5.52h-1.182l-1.352 4.085-1.397-4.086ZM5.4 19.68H3.72v1.68H5.4v-1.68Z"
 		/>
 	</TechStack>
 	<VerticalDottedLine />

@@ -1,7 +1,6 @@
 <script lang="ts">
 	import { onMount } from "svelte";
-	import * as config from "$lib/config";
-	import { Menu, MoreVertical } from "lucide-svelte";
+	import { Menu } from "lucide-svelte";
 
 	let hidden: boolean = false;
 
