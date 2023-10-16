@@ -1,5 +1,5 @@
 @import "@fontsource/fira-code";
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -10,7 +10,7 @@ body {
 	height: 100%;
 	background: #0f0e0e;
 	color: #fff;
-	font-family: "Inter", sans-serif;
+	font-family: "Raleway", sans-serif;
 }
 
 @layer components {
