@@ -212,22 +212,22 @@ every hextet that starts or has 0s in a row can be ommited but
 - _Presentation:_ here an "action" or data rather, gets converted to binary and
   later encrypted for its communication, and can transmit or recieve from there
 
-_Session:_ the session is established it creates a "tunnel" or rather a
+- _Session:_ the session is established it creates a "tunnel" or rather a
 connection for transmitting the encrypted information.
 
-_Transport:_ Ensures the delivery by how fast, where it goes and => TCP (Transmission
+- _Transport:_ Ensures the delivery by how fast, where it goes and => TCP (Transmission
 Control Protocol)/UDP (User Datagram Protocol). The transport layout is in
 charge of sectioning the data in a way to prevent data corruption and recovery
 if necessary, as well of data integrity. _Works with segments_
 
-_Network:_ does the routing of the data. This is accomplished by Adress Resolution
+- _Network:_ does the routing of the data. This is accomplished by Adress Resolution
 Protocol (ARP). It has routing details to know where to take the packet. _Works
 with packets_
 
-_Data-Link:_ The most complex of all. MAC: Media Access Control and LLC: Logical
+- _Data-Link:_ The most complex of all. MAC: Media Access Control and LLC: Logical
 Link Control. A frame is created for every section before that contains all the
 information for Error free data transfer. _Works with frames_
 
-_Physical:_ is the electrical and physical part of the networking. Is the device
+- _Physical:_ is the electrical and physical part of the networking. Is the device
 plugged in? This comes from all devices that transport analog information to
 digital. _Works with bits_.
