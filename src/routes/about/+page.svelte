@@ -20,12 +20,15 @@
 		</p>
 		<p>
 			With a proven track record of crafting dynamic and efficient digital
-			solutions. Currently spearheading groundbreaking projects at Orbitas
-			Software Development. Adept at merging creativity and technical expertise
+			solutions. Currently working for IBM as a Technical Support Engineer for
+      IBM SevOne NPM. 
+		</p>
+    <p>
+      Adept at merging creativity and technical expertise
 			to build user-centric applications. Skilled in an array of programming
 			languages, frameworks, and tools, with a keen eye for detail and a knack
 			for problem-solving.
-		</p>
+    </p>
 	</div>
 	<hr class="my-6 border border-dashed" />
 	<h3 class="text-2xl pb-6">Get in contact with me or check my socials</h3>
